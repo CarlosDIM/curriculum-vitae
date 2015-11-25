@@ -11,10 +11,18 @@
 
     <title>cv-admin</title>
 
-    {!!Html::style('css/bootstrap.min.css')!!}
-    {!!Html::style('css/metisMenu.min.css')!!}
-    {!!Html::style('css/sb-admin-2.css')!!}
-    {!!Html::style('css/font-awesome.min.css')!!}
+    <!-- Bootstrap Core CSS -->
+
+    {!!Html::style('../bower_components/bootstrap/dist/css/bootstrap.min.css')!!}
+
+    <!-- MetisMenu CSS -->
+    {!!Html::style('../bower_components/metisMenu/dist/metisMenu.min.css')!!}
+
+    <!-- Custom CSS -->
+    {!!Html::style('../dist/css/sb-admin-2.css')!!}
+
+    <!-- Custom Fonts -->
+    {!!Html::style('../bower_components/font-awesome/css/font-awesome.min.css')!!}
 
 </head>
 
@@ -44,10 +52,10 @@
                 <ul class="dropdown-menu dropdown-user">
                     <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
                     </li>
-                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                    <li><a href="#"><i class="fa fa-gear fa-fw"></i> Configurar</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Salir</a>
                     </li>
                 </ul>
             </li>
@@ -67,11 +75,19 @@
     <!-- /#page-wrapper -->
 
 </div>
+<!-- /#wrapper -->
 
-{!!Html::script('js/jquery.min.js')!!}
-{!!Html::script('js/bootstrap.min.js')!!}
-{!!Html::script('js/metisMenu.min.js')!!}
-{!!Html::script('js/sb-admin-2.js')!!}
+<!-- jQuery -->
+{!!Html::script('../bower_components/jquery/dist/jquery.min.js')!!}
+
+<!-- Bootstrap Core JavaScript -->
+{!!Html::script('../bower_components/bootstrap/dist/js/bootstrap.min.js')!!}
+
+<!-- Metis Menu Plugin JavaScript -->
+{!!Html::script('../bower_components/metisMenu/dist/metisMenu.min.js')!!}
+
+<!-- Custom Theme JavaScript -->
+{!!Html::script('../dist/js/sb-admin-2.js')!!}
 
 
 </body>
