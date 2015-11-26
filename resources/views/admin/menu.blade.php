@@ -4,7 +4,7 @@
         <ul class="nav" id="side-menu">
 
             <li>
-                <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Description<span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-pencil fa-fw"></i> Description<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
                         <a href="#">Flot Charts</a>
@@ -16,29 +16,29 @@
                 <!-- /.nav-second-level -->
             </li>
             <li>
-                <a href="#"><i class="fa fa-table fa-fw"></i> About<span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-user fa-fw"></i> About<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Studies</a>
+                        <a href="#"><i class='fa fa-book fa-fw'></i> Studies</a>
                     </li>
                     <li>
-                        <a href="#">Abilities</a>
+                        <a href="#"><i class='fa fa-font fa-fw'></i> Abilities</a>
                     </li>
 
                 </ul>
             </li>
             <li>
-                <a href="#"><i class="fa fa-edit fa-fw"></i> Experiences<span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-road fa-fw"></i> Experiences<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#">Add</a>
+                        <a href="#"><i class='fa fa-plus fa-fw'></i> Add</a>
                     </li>
 
                 </ul>
             </li>
 
             <li>
-                <a href="#"><i class="fa fa-sitemap fa-fw"></i>Works<span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-wrench fa-fw"></i>Works<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
                         <a href="#">Add</a>
@@ -67,8 +67,18 @@
                 </ul>
                 <!-- /.nav-second-level -->
             </li>
+
+            <li>
+                <a href="#"><i class="fa fa-envelope fa-fw"></i> Contact<span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="#">Add</a>
+                    </li>
+                </ul>
+            </li>
+
             <li class="active">
-                <a href="#"><i class="fa fa-dashboard fa-fw"></i> Users<span class="fa arrow"></span></a>
+                <a href="#"><i class="fa fa-users fa-fw"></i> Users<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
                         <a href="#">Add</a>

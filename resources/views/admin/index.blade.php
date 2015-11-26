@@ -1,5 +1,5 @@
 @extends('layouts.admin')
 
 @section('content')
-dsadsa
+CONTENIDO
 @endsection

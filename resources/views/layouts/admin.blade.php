@@ -21,7 +21,7 @@
     <!-- Custom CSS -->
     {!!Html::style('../dist/css/sb-admin-2.css')!!}
 
-    <!-- Custom Fonts -->
+    <!-- Las imagenes del menu -->
     {!!Html::style('../bower_components/font-awesome/css/font-awesome.min.css')!!}
 
 </head>
@@ -59,16 +59,15 @@
             </li>
         </ul>
 
-
     </nav>
+
         @include('admin.menu')
-
-
-
 
     <!-- Page Content -->
     <div id="page-wrapper">
-       @yield('content')
+
+        @yield('content')
+
     </div>
     <!-- /#page-wrapper -->
 
