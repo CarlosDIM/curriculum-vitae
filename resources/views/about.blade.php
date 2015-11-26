@@ -19,11 +19,11 @@
     <div class="technology-skills">
         <ul>
             <li class="jquery"><span>jQuery<br>40%</span></li>
-            <li class="photoshop"><span>Photoshop<br>98%</span></li>
-            <li class="wordpress"><span>Wordpress<br>75%</span></li>
-            <li class="php"><span>PHP<br>25%</span></li>
-            <li class="css3"><span>CSS3<br>90%</span></li>
-            <li class="html5"><span>Html5<br>92%</span></li>
+            <li class="wordpress"><span>javaScript<br>60%</span></li>
+            <li class="photoshop"><span>DB<br> Oracle,<br>MySql,<br>Informix,<br>SqlServer)<br>80%</span></li>
+            <li class="php"><span>PHP<br>80%</span></li>
+            <li class="css3"><span>LARAVEL<br>70%</span></li>
+            <li class="html5"><span>Html5<br>70%</span></li>
             <div class="clear"></div>
         </ul>
     </div>

@@ -1,6 +1,6 @@
 
 <div class="wrap">
-    <h2>Our Services</h2>
+    <h2>Experiences</h2>
     <div class="section group">
         <div class="grid_1_of_4 images_1_of_4">
             <div class="grid_icon"><span><img src="images/graphic-design.png" alt="" /><h3>Graphic Design</h3></span></div>

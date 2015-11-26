@@ -25,13 +25,13 @@ class FrontController extends Controller
     {
         return view('description');
     }
-    public  function ourservices()
+    public  function experinces()
     {
-        return view('ourservices');
+        return view('experinces');
     }
-    public  function ourwork()
+    public  function works()
     {
-        return view('ourwork');
+        return view('works');
     }
     public  function contact()
     {

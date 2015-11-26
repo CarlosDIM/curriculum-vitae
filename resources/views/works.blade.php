@@ -1,7 +1,7 @@
 
 <div class="wrap">
     <div class="work-section-heading">
-        <h2>Our Work</h2>
+        <h2>Works</h2>
         <ul id="filters" class="clearfix">
             <li>
                 <span class="filter active" data-filter="all">All Work</span>

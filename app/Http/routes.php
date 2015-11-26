@@ -17,8 +17,8 @@ Route::get('/', function () {
 */
 Route::get('/','FrontController@index');
 Route::get('description','FrontController@description');
-Route::get('ourservices','FrontController@ourservices');
-Route::get('ourwork','FrontController@ourwork');
+Route::get('experiences','FrontController@experiences');
+Route::get('works','FrontController@works');
 Route::get('contact','FrontController@contact');
 
 Route::get('admin','FrontController@admin');

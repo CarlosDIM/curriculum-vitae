@@ -24,13 +24,13 @@
 
         <!-- Services Section -->
         <div class="services-section section" id="section-3">
-            @include('ourservices')
+            @include('experiences')
 
         </div>
 
         <!-- Our Works Section -->
         <div class="works-section section" id="section-4">
-            @include('ourwork')
+            @include('works')
 
         </div>
     </div>
