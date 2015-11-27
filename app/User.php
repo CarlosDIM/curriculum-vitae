@@ -28,7 +28,7 @@ class User extends Model implements AuthenticatableContract,
      *
      * @var array
      */
-    protected $fillable = ['name', 'email', 'password'];
+    protected $fillable = ['name', 'email', 'password','sw_activo'];
 
     /**
      * The attributes excluded from the model's JSON form.
@@ -36,4 +36,26 @@ class User extends Model implements AuthenticatableContract,
      * @var array
      */
     protected $hidden = ['password', 'remember_token'];
+
+    public function setPasswordAttribute($valor)
+    {
+        if(!empty($valor))
+        {
+            $this->attributes['password']=\Hash::make($valor);
+        }
+    }
+
+    public function setSwActivo($valor)
+    {
+        if(!empty($valor))
+        {
+            if($valor==true)
+            {
+                $this->attributes['sw_activo']=1;
+            }else{
+                $this->attributes['sw_activo']=0;
+            }
+
+        }
+    }
 }

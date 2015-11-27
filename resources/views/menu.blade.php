@@ -10,10 +10,12 @@
             <ul class="simple-toggle" id="nav">
                 <li class="current"><a href="#section-1">Home</a></li>
                 <li><a href="#section-2">About</a></li>
-                <li><a href="#section-3">Our Services</a></li>
-                <li><a href="#section-4">Our Work</a></li>
+                <li><a href="#section-3">Experiences</a></li>
+                <li><a href="#section-4">Works</a></li>
                 <li><a href="#section-5">Contact</a></li>
-                <li><a href="">Login</a></li>
+                <li><a href="">Login</a>
+
+                </li>
             </ul>
         </nav>
 

@@ -25,9 +25,9 @@ class FrontController extends Controller
     {
         return view('description');
     }
-    public  function experinces()
+    public  function experiences()
     {
-        return view('experinces');
+        return view('experiences');
     }
     public  function works()
     {
@@ -35,7 +35,7 @@ class FrontController extends Controller
     }
     public  function contact()
     {
-        return view('contacto');
+        return view('contact');
     }
 
 }

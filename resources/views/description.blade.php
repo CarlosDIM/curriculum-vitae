@@ -18,14 +18,14 @@
                 <li>Lorem Ipsum is simply dummy text ever since. </li>
                 <li>Lorem Ipsum is simply dummy text of the printing.</li>
             </ul>
-            <a href="#section-4" class="scroll">See Our work</a>
+            <a href="#section-4" class="scroll">See works</a>
         </div>
     </div>
     <div class="img-banner-pic">
         <div class="gallery">
-            <a href="#"><span class="gallery-image"><img src="images/slide1.jpg" alt="" /></span></a>
-            <a href="#"><span class="gallery-image"><img src="images/slide2.jpg" alt="" /></span></a>
-            <a href="#"><span class="gallery-image"><img src="images/slide3.jpg" alt="" /></span></a>
+            <a href="#"><span class="gallery-image"><img src="images/descriptions/slide1.jpg" alt="" /></span></a>
+            <a href="#"><span class="gallery-image"><img src="images/descriptions/slide2.jpg" alt="" /></span></a>
+            <a href="#"><span class="gallery-image"><img src="images/descriptions/slide3.jpg" alt="" /></span></a>
         </div>
     </div>
     <div class="clear"> </div>

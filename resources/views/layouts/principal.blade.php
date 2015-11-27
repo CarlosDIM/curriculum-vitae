@@ -12,9 +12,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
-    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    {!!Html::script('js/jquery-1.10.2.min.js')!!}
+
     <link href="css/flipping_gallery.css" rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/jquery.flipping_gallery.js"></script>
+
+    {!!Html::script('js/jquery.flipping_gallery.js')!!}
+
     <script>
         $(document).ready( function() {
             $(".gallery").flipping_gallery({
@@ -27,8 +30,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         });
 
     </script>
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    {!!Html::script('js/jquery.easing.min.js')!!}
+    <!--<script type="text/javascript" src="js/jquery.easing.min.js"></script>-->
+    {!!Html::script('js/jquery.mixitup.min.js') !!}
+   <!--<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>-->
     <script type="text/javascript">
         $(function() {
 
@@ -78,7 +83,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </script>
 
     <link href="css/magnific-popup.css" rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+    {!!Html::script('js/jquery.magnific-popup.js') !!}
+    <!--<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>-->
     <script>
         $(document).ready(function() {
             $('.popup-with-zoom-anim').magnificPopup({
@@ -103,8 +109,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 @yield('content')
 
-<script src="js/jquery.scrollTo.js"></script>
-<script src="js/jquery.nav.js"></script>
+{!! Html::script('js/jquery.scrollTo.js') !!}
+<!--<script src="js/jquery.scrollTo.js"></script>-->
+
+{!! Html::script('js/jquery.nav.js') !!}
+<!--<script src="js/jquery.nav.js"></script>-->
 <script type="text/javascript">
     $(document).ready(function() {
         $('#nav').onePageNav({

@@ -22,4 +22,4 @@ Route::get('works','FrontController@works');
 Route::get('contact','FrontController@contact');
 Route::get('admin','FrontController@admin');
 
-//Route::resources('users','UsuarioController');
+Route::resource('users','UsuarioController');

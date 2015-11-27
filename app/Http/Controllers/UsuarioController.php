@@ -37,7 +37,13 @@ class UsuarioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        \cv\User::create([
+            'name'=>$request['name'],
+            'email'=>$request['email'],
+            'password'=>$request['password'],
+            'sw_activo'=>$request['sw_Activo'],
+        ]);
+        return "Usuario registrado";
     }
 
     /**
