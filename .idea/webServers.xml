@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cabc7f05-7c66-4200-906d-6fecba8b7540" name="MY_SERVER" url="http://localhost">
+        <fileTransfer mountedRoot="C:\wamp\www\curriculum-vitae" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

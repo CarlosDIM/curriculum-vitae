@@ -2,10 +2,15 @@
 
 namespace cv\Http\Controllers;
 
+use cv\User;
 use Illuminate\Http\Request;
-
+use Session;
+use Redirect;
 use cv\Http\Requests;
+use cv\Http\Requests\UserCreateRquest;
+use cv\Http\Requests\UserUpdateRquest;
 use cv\Http\Controllers\Controller;
+
 
 class UsuarioController extends Controller
 {
@@ -16,7 +21,8 @@ class UsuarioController extends Controller
      */
     public function index()
     {
-        //
+        $users=User::paginate(10);
+        return view('users.index',compact('users'));
     }
 
     /**
@@ -35,15 +41,18 @@ class UsuarioController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(UserCreateRquest $request)
     {
-        \cv\User::create([
+            User::create([
             'name'=>$request['name'],
             'email'=>$request['email'],
             'password'=>$request['password'],
             'sw_activo'=>$request['sw_Activo'],
         ]);
-        return "Usuario registrado";
+
+        Session::flash('message','Usuario Creado Correctamente');
+        return Redirect::to('/users');
+
     }
 
     /**
@@ -65,7 +74,8 @@ class UsuarioController extends Controller
      */
     public function edit($id)
     {
-        //
+        $user=User::find($id);
+        return view('users.edit',['user'=>$user]);
     }
 
     /**
@@ -75,9 +85,14 @@ class UsuarioController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UserUpdateRquest $request, $id)
     {
-        //
+        $user=User::find($id);
+        $user->fill($request->all());
+        $user->save();
+
+        Session::flash('message','Usuario Actualizado Correctamente');
+        return Redirect::to('/users');
     }
 
     /**
