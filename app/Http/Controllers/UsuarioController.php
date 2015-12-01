@@ -4,12 +4,12 @@ namespace cv\Http\Controllers;
 
 use cv\User;
 use Illuminate\Http\Request;
-use Session;
-use Redirect;
 use cv\Http\Requests;
 use cv\Http\Requests\UserCreateRquest;
 use cv\Http\Requests\UserUpdateRquest;
 use cv\Http\Controllers\Controller;
+use Session;
+use Redirect;
 
 
 class UsuarioController extends Controller

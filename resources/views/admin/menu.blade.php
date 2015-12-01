@@ -93,10 +93,10 @@
                 <a href="#"><i class="fa fa-users fa-fw"></i> Users<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#"><i class='fa fa-plus fa-fw'></i> Add User</a>
+                        <a href="{!! URL::to('/users/create') !!}"><i class='fa fa-plus fa-fw'></i> Add User</a>
                     </li>
                     <li>
-                        <a href="#"><i class='fa fa-list-ul fa-fw'></i> Users</a>
+                        <a href="{!! URL::to('/users') !!}"><i class='fa fa-list-ul fa-fw'></i> Users</a>
                     </li>
                 </ul>
             </li>
