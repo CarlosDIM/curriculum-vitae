@@ -48,7 +48,7 @@ class LogController extends Controller
             return Redirect::to('admin');
         }
             Session::flash('mesage-error','Datos Incorrectos');
-            Redirect::to('/');
+            return Redirect::to('/');
 
 
     }
@@ -56,7 +56,7 @@ class LogController extends Controller
     public function logout()
     {
         Auth::logout();
-        Redirect::to('/');
+        return Redirect::to('/');
     }
     /**
      * Display the specified resource.
