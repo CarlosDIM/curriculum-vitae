@@ -23,3 +23,6 @@ Route::get('contact','FrontController@contact');
 Route::get('admin','FrontController@admin');
 
 Route::resource('users','UsuarioController');
+
+Route::resource('log','LogController');
+Route::get('logout','LogController@logout');

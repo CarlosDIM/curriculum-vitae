@@ -47,7 +47,7 @@ class User extends Model implements AuthenticatableContract,
 
     public function setSwActivo($valor)
     {
-        if(empty($valor))
+        if($valor<>1)
         {
             $this->attributes['sw_activo']=0;
         }

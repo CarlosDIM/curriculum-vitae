@@ -38,4 +38,5 @@ class FrontController extends Controller
         return view('contact');
     }
 
+
 }

@@ -1,5 +1,6 @@
 @extends('layouts.principal')
 @section('content')
+@extends('alerts.errors')
 
     <div class="header" id="header-top">
 

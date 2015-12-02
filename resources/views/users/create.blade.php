@@ -2,7 +2,6 @@
 
 @section('content')
 @include('alerts.request')
-@include('alerts.success')
 
     {!! Form::open(['route'=>'users.store','method'=>'POST']) !!}
 
