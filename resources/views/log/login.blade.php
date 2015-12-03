@@ -15,8 +15,14 @@
         {!! Form::password('password',['class'=>'form-control','placeholder'=>'Ingrese el password']) !!}
     </div>
 
+    <div class ="form-group">
+
+        {!! Form::checkbox('Remember Me', 'Remember Me', true) !!}
+    </div>
+
         {!! Form::submit('login',['class'=>'btn btn-primary']) !!}
 
     {!! Form::close() !!}
 
 @endsection
+

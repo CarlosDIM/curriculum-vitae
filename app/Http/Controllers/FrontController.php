@@ -8,7 +8,7 @@ use cv\Http\Controllers\Controller;
 
 class FrontController extends Controller
 {
-    public function __contruct()
+    public function __construct()
     {
         $this->middleware('auth',['only'=>'admin']);
     }

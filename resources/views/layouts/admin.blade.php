@@ -46,7 +46,7 @@
 
         <ul class="nav navbar-top-links navbar-right">
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="">NombreUsuario
                     <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-user">
@@ -85,6 +85,7 @@
 
 <!-- Custom Theme JavaScript -->
 {!!Html::script('../dist/js/sb-admin-2.js')!!}
+
 
 
 </body>

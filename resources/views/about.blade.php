@@ -2,31 +2,37 @@
 <div class="wrap">
     <h2>about</h2>
     <div class="intro-text">
-        <p>I am David Hussey, a Freelance Designer based in United Kingdom, I design interactive experiences<br>
+        <p>I am Carlos Jiménez, a Freelance Designer based in United Kingdom, I design interactive experiences<br>
             Web + Mobile + Branding + Motion</p>
     </div>
+
     <div class="section group">
         <div class="col_1_of_2 span_1_of_2">
-            <h3>What we do</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting,</p>
-            <p>It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, and more recently with</p>
+            <h3>Ingenieer</h3>
+            <p>fsdfsdfdf,</p>
+            <p>hhhhhhhhh</p>
         </div>
         <div class="col_1_of_2 span_1_of_2">
-            <h3>Our Mission</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into electronic typesetting,</p>
-            <p>It has survived not only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                sheets containing Lorem Ipsum passages, and more recently with</p>
+            <h3>Tecnologi</h3>
+            <p>fsdfsdfsdfsdf,</p>
+            <p>hhhhhhhhhh</p>
+        </div>
+
+    </div>
+    <div class="section group">
+
+        <div class="col_1_of_2 span_1_of_2">
+            <h3>Cerification 1</h3>
+            <p>fsdfsdfdf,</p>
+            <p>hhhhhhhhh</p>
+        </div>
+        <div class="col_1_of_2 span_1_of_2">
+            <h3>Cerification 2</h3>
+            <p>fsdfsdfsdfsdf,</p>
+            <p>hhhhhhhhhh</p>
         </div>
     </div>
+
     <div class="technology-skills">
         <ul>
             <li class="jquery"><span>jQuery<br>40%</span></li>

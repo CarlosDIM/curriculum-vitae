@@ -53,7 +53,7 @@
                 <a href="#"><i class="fa fa-road fa-fw"></i> Experiences<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="#"><i class='fa fa-plus fa-fw'></i> Add Experience</a>
+                        <a href="{!! URL::to('experiences/create')!!}"><i class='fa fa-plus fa-fw'></i> Add Experience</a>
                     </li>
 
                 </ul>

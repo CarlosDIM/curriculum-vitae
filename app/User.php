@@ -45,7 +45,7 @@ class User extends Model implements AuthenticatableContract,
         }
     }
 
-    public function setSwActivo($valor)
+    public function setSw_activoAttribute($valor)
     {
         if($valor<>1)
         {
