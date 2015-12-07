@@ -1,31 +1,37 @@
 
 <div class="img-banner">
     <div class="intro-text">
-        <p>I am David Hussey, a Freelance Designer based in United Kingdom, I design interactive experiences<br/> Web + Mobile + Branding + Motion</p>
+        <p>I am Carlos Jiménez, Professional Computer Engineer
+            <br/>
+            Programming in PHP (LARAVEL, YII), JavaScript, JQuery, layers with databases SQL Server, Informix, PL / SQL, MySql.
+        </p>
     </div>
     <div class="img-banner-info">
-        <h1>Featured project</h1>
-        <h3>Project Name</h3>
+        <h1>PROFILE</h1>
+        <br>
 
         <div class="featured-project-desc">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. </p>
-            <ul>
-                <li>Lorem Ipsum is simply dummy text of the printing.</li>
-                <li>Lorem Ipsum is simply dummy text ever since. </li>
-                <li>Lorem Ipsum is simply dummy text of the printing.</li>
-                <li>Lorem Ipsum has been the industry's standard dummy.</li>
-                <li>Lorem Ipsum is simply dummy text of the printing.</li>
-                <li>Lorem Ipsum is simply dummy text ever since. </li>
-                <li>Lorem Ipsum is simply dummy text of the printing.</li>
-            </ul>
+            <p>Through previous experience at large-scale corporations,
+                can easily address the diverse needs of customers,
+                employees, and other professionals.
+            </p>
+            <br>
+            <p>
+                Knowledge in database,
+                I have experience performing stored procedures,
+                transactions, triggers, temporary tables, insert,
+                update, delete tables and fields.
+            </p>
+
             <a href="#section-4" class="scroll">See works</a>
         </div>
     </div>
     <div class="img-banner-pic">
         <div class="gallery">
-            <a href="#"><span class="gallery-image"><img src="images/descriptions/slide1.jpg" alt="" /></span></a>
-            <a href="#"><span class="gallery-image"><img src="images/descriptions/slide2.jpg" alt="" /></span></a>
-            <a href="#"><span class="gallery-image"><img src="images/descriptions/slide3.jpg" alt="" /></span></a>
+            <a href="#"><span class="gallery-image"><img src="images/descriptions/Bienvenida.jpg" alt="" /></span></a>
+            <a href="#"><span class="gallery-image"><img src="images/descriptions/PortalMahalo.jpg" alt="" /></span></a>
+            <a href="#"><span class="gallery-image"><img src="images/descriptions/ventas.jpg" alt="" /></span></a>
+            <a href="#"><span class="gallery-image"><img src="images/descriptions/Contable.jpg" alt="" /></span></a>
         </div>
     </div>
     <div class="clear"> </div>

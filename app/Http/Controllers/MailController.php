@@ -2,19 +2,15 @@
 
 namespace cv\Http\Controllers;
 
-use cv\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Redirect;
-use Auth;
+use Mail;
 use Session;
+use Redirect;
 use cv\Http\Requests;
-use cv\Http\Requests\LoginRequest;
 use cv\Http\Controllers\Controller;
-use Illuminate\Support\Facades\View;
 
-class LogController extends Controller
+class MailController extends Controller
 {
-
     /**
      * Display a listing of the resource.
      *
@@ -22,7 +18,7 @@ class LogController extends Controller
      */
     public function index()
     {
-        return view('log.login');
+        //
     }
 
     /**
@@ -41,23 +37,16 @@ class LogController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(LoginRequest $request)
+    public function store(Request $request)
     {
-        if (Auth::attempt(['email' => $request['email'], 'password' => $request['password'] ]))
-        {
-            return Redirect::to('/admin');
-        }
-            Session::flash('mesage-error','Datos Incorrectos');
-            return Redirect::to('/');
-
-
-    }
-
-    public function logout()
-    {
-        Auth::logout();
+        Mail::send('emails.contact',$request->all(),function($msj) {
+            $msj->subject('CANADA');
+            $msj->to('carlosjimenezb1986@gmail.com');
+        });
+        Session::flash('message','Mensaje enviado corectamente');
         return Redirect::to('/');
     }
+
     /**
      * Display the specified resource.
      *

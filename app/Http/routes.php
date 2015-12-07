@@ -25,3 +25,4 @@ Route::resource('log','LogController');
 Route::get('logout','LogController@logout');
 
 Route::resource('experiences','ExperiencesController');
+Route::resource('mail','MailController');
