@@ -35,27 +35,18 @@
 
 <body>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4 col-md-offset-4">
-            <div class="login-panel panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Please Sign In</h3>
-                </div>
-                <div class="panel-body">
-                    <form role="form">
-                        <fieldset>
-                            @yield('content')
-
-
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
+<div class="col-lg-4">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            Please Sign In
+        </div>
+        <div class="panel-body">
+       </div>
+        <div class="panel-footer">
+            @yield('content')
         </div>
     </div>
 </div>
-
 <!-- jQuery -->
 {!! Html::script('../bower_components/jquery/dist/jquery.min.js') !!}
         <!--<script src="../bower_components/jquery/dist/jquery.min.js"></script>-->

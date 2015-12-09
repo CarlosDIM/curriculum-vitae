@@ -4,40 +4,49 @@
     <div class="section group">
         <div class="grid_1_of_4 images_1_of_4">
             <div class="grid_icon"><span><img src="images/experiences/drupal.png" alt="" />
-                    <h3>Ingeniero de Desarrollo</h3></span>
+                    <h3>Development engineer</h3></span>
             </div>
-            <p>Programador de sistema pos llamado mahalo,
+            <h3>Company: Websaas as Service</h3>
+            <p>Pos system programmer called mahalo,
                 php, JS, JQuery, AJAX,
-                interfaces contables, WebServices ,
-                Formularios, reportes,
-                DB informix,procedimientos almacenados,
-                triggers.</p>
-            <p>Años:5 </p>
-            <p>http://www.websaas.net/</p>
+                accounting interfaces, WebServices,
+                Forms, reports,
+                DB Informix stored procedures,
+                triggers.
+            </p>
+            <p>Time worked: 5 Year </p>
+            <p><a href="http://www.websaas.net" target=" blank">www.websaas.net</a></p>
         </div>
         <div class="grid_1_of_4 images_1_of_4">
             <div class="grid_icon"><span><img src="images/experiences/web-design.png" alt="" />
-                    <h3>Ingeniero de soporte de procesos</h3></span>
+                    <h3>Support engineer processes</h3></span>
             </div>
-            <p>Desarrollo de sitios web en php,
-                JavaScript, Jquery, MySql</p>
-            <p>Años:1 </p>
-            <p>http://www.secuencia24.com/</p>
+            <h3>Company: Sequence 24</h3>
+            <p>Website development in PHP,
+                JavaScript, jQuery, MySQL.
+            </p>
+            <p>Time worked: 1 Year </p>
+            <p><a href=">http://www.secuencia24.com/" target="blank">www.secuencia24.com</a></p>
         </div>
 
         <div class="grid_1_of_4 images_1_of_4">
             <div class="grid_icon"><span><img src="images/experiences/web-design.png" alt="" />
-                    <h3>Auxiliar de Sistemas</h3></span></div>
-            <p>Soporte tecnico.</p>
-            <p>Años:1 </p>
-            <p>http://textilesbalalaika.com/</p>
+                    <h3>Auxiliary Systems</h3></span>
+            </div>
+            <h3>Company: Textiles Balalaika</h3>
+            <p>Technical support.</p>
+            <p>Time worked: 1 Year </p>
+            <p><a href="http://textilesbalalaika.com/" target=" blank">www.textilesbalalaika.com</a></p>
         </div>
+
         <div class="grid_1_of_4 images_1_of_4">
             <div class="grid_icon"><span><img src="images/experiences/wordpress.png" alt="" />
-                    <h3>Auxiliar de Gestión de Requerimientos</h3></span></div>
-            <p>(Practicante).</p>
-            <p>Años:0.5 </p>
-            <p>http://www.argos.co/colombia</p>
+                    <h3>Requirements Management Assistant</h3></span>
+            </div>
+            <h3>Company: Cementos Argos SA</h3>
+            <p>(Practicing).</p>
+            <p>Time worked: 0.5 Year </p>
+            <p> <a href="http://www.argos.co/colombia" target=" blank">www.argos.co/colombia</a></p>
         </div>
     </div>
    <!-- <div class="section group">
